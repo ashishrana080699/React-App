@@ -1,0 +1,17 @@
+.mainContainer{
+    background-color: rgb(205, 234, 241);
+    border: 2px solid black;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 200px;
+  }
+   
+  .inputStyle{
+    text-align: center;
+    background-color:white
+  }
+   
+  .outStyle{
+    text-align: center;
+    background-color: white;
+  }
