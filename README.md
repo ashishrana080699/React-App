@@ -1,6 +1,6 @@
 
 
-## Available Scripts
+## React App
 
 In the project directory, you can run:
 
