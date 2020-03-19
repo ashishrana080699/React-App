@@ -5,7 +5,20 @@ export default class AddNums extends React.Component {
  
   state = { num1: '', num2: '', total: '' }  
  
- 
+   addition(){
+    this.setState({ total: parseInt(this.state.num1) + parseInt(this.state.num2) })
+  }
+  substraction(){
+    this.setState({ total: parseInt(this.state.num1) - parseInt(this.state.num2) })
+  }
+
+  multiplication(){
+    this.setState({ total: parseInt(this.state.num1) * parseInt(this.state.num2) })
+  }
+
+  division(){
+    this.setState({ total: parseInt(this.state.num1) / parseInt(this.state.num2) })
+  }
 
   render() {
     return(
