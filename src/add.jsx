@@ -5,8 +5,10 @@ export default class AddNums extends React.Component {
  
   state = { num1: '', num2: '', total: '' }  
  
-   addition(){
+  addition(){
+   // console.log("Num1: ", this.state.num1, " - Num2: ", this.state.num2)
     this.setState({ total: parseInt(this.state.num1) + parseInt(this.state.num2) })
+    //console.log(this.state)
   }
   substraction(){
     this.setState({ total: parseInt(this.state.num1) - parseInt(this.state.num2) })
@@ -19,6 +21,7 @@ export default class AddNums extends React.Component {
   division(){
     this.setState({ total: parseInt(this.state.num1) / parseInt(this.state.num2) })
   }
+
 
   render() {
     return(
